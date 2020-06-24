@@ -34,6 +34,8 @@
 
             <button class="submit-btn">Submit Payment</button>
         </form>
+        <a href="customers.php" class='a index-a'>Customers</a>
+        <a href="transactions.php" class='a index-a'>Transactions</a>
     </div>
     <!-- End main container -->
 

@@ -7,6 +7,8 @@ body{
     margin: auto;
 }
 
+
+
 .center{
     text-align: center;
     margin: auto;
@@ -27,6 +29,10 @@ p{
     background-color: darkcyan;
     padding: 4px 10px;
     border-radius: 3px;
+}
+
+form{
+    margin-bottom: 20px;
 }
 
 .StripeElement{
@@ -71,4 +77,47 @@ p{
     border: none;
     margin-top: 20px;
     cursor: pointer;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #666; /* this draws the table border  */ 
+    background-color: black;
+    color: wheat;
+    
+}
+
+tbody tr:hover{
+
+ color: yellowgreen;   
+ cursor: pointer; 
+}
+
+.h2-table{
+    color: black;
+    font-size: 50px;
+}
+
+th{
+    border: 1px solid wheat;
+    height: 40px;
+}
+td{
+    border: 1px solid wheat;
+    padding: 10px;
+}
+
+.index-a{
+    background-color: black;
+}
+.index-a:hover{
+    
+    border-bottom: 4px solid yellowgreen;
 }
