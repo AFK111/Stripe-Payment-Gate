@@ -1,0 +1,74 @@
+body{
+    background: #d5cbcb;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    font-size: 17px;
+}
+
+.h2{
+    margin: 10px;
+    font-size: 35px;
+    color: #32325d;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+.StripeElement{
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid darkblue;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    height: 25px;
+    width: 97%;
+    margin-top: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.StripeElement--focus{
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid{
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill{
+    background-color: #fefde5 !important;
+}
+
+.submit-btn{
+    display: block;
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    padding:5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
